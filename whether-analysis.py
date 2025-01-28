@@ -4,13 +4,13 @@ import pandas as pd
 rain = pd.read_csv('pune_weather_with_regions.csv')
 rain
 import pandas as pd
-import matplotlib.pyplot as plt
+
 import seaborn as sns
 # Load the uploaded dataset to check its structure and understand the columns for processing
 import pandas as pd
 
 # Define the file path
-file_path = 'C:/Users/admin/neuai/Project_01/pune_weather_with_regions.csv'
+file_path = 'pune_weather_with_regions.csv'
 
 # Load the dataset
 weather_data = pd.read_csv(file_path)
