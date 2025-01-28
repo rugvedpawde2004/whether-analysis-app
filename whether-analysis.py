@@ -37,6 +37,7 @@ monthly_aggregated_data['month'] = monthly_aggregated_data['month'].dt.to_timest
 # Display the aggregated data
 monthly_aggregated_data
 
+import matplotlib.pyplot as plt
 plt.figure(figsize=(20,12))
 plt.plot(monthly_aggregated_data['month'], monthly_aggregated_data['Temperature'], marker='*', color='blue', label='Temperature (°C)')
 plt.title('Temperature Trends Over Time', fontsize=16)
