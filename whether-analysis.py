@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-import seaborn as sns
-import plotly.express as px
-
 # Load the dataset
 try:
     weather_data = pd.read_csv('pune_weather_with_regions.csv')
@@ -39,6 +36,8 @@ st.write(monthly_aggregated_data)
 
 # --- Plots ---
 import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
 st.subheader("Temperature Trends Over Time")
 fig_temp = plt.figure(figsize=(10, 6))  # Adjusted figure size for Streamlit
 plt.plot(monthly_aggregated_data['month'], monthly_aggregated_data['Temperature'], marker='*', color='blue', label='Temperature (°C)')
