@@ -1,3 +1,11 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+import requests
+from datetime import datetime
+import pytz
+
+
 rain = pd.read_csv('C:/Users/admin/neuai/Project_01/pune_weather_with_regions.csv')
 rain
 import pandas as pd
