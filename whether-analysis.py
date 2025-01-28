@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-rain = pd.read_csv('C:/Users/admin/neuai/Project_01/pune_weather_with_regions.csv')
+rain = pd.read_csv('pune_weather_with_regions.csv')
 rain
 import pandas as pd
 import matplotlib.pyplot as plt
