@@ -5,7 +5,6 @@ rain = pd.read_csv('pune_weather_with_regions.csv')
 rain
 import pandas as pd
 
-import seaborn as sns
 # Load the uploaded dataset to check its structure and understand the columns for processing
 import pandas as pd
 
